@@ -10,7 +10,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
      domain="dev-1lxg3fk71kaqu6it.us.auth0.com"
      clientId="FDG4dk98FVpoGMnFyOPdmefqG4ChdYDO"
      authorizationParams={{
-      redirect_uri: "http://localhost:5173"
+      redirect_uri: "https://cultur-connects.vercel.app"
      }}
      audience="https://dev-1lxg3fk71kaqu6it.us.auth0.com/api/v2/"
      scope="openid profile email"
