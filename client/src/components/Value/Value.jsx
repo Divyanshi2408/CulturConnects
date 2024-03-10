@@ -23,7 +23,7 @@ const Value = () => {
         {/* left side */}
         <div className="v-left">
           <div className="image-container">
-            <img src="./value.png" alt="" />
+            <img src="https://indiachalk.com/wp-content/uploads/2021/10/08-dusshera-image-india-chalk-2021-768x1024.jpg" alt="" />
           </div>
         </div>
 
@@ -34,9 +34,10 @@ const Value = () => {
           <span className="primaryText">Value We Give to You</span>
 
           <span className="secondaryText">
-            We always ready to help by providijng the best services for you.
+          At CulturConnect, we're dedicated to enriching your journey with unparalleled 
             <br />
-            We beleive a good blace to live can make your life better
+            services. We firmly believe that immersing yourself in the vibrant<br/>
+             tapestry of Indian culture can enhance your quality of life.
           </span>
 
           <Accordion

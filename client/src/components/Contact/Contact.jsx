@@ -12,8 +12,8 @@ const Contact = () => {
           <span className="orangeText">Our Contact Us</span>
           <span className="primaryText">Easy to contact us</span>
           <span className="secondaryText">
-            We always ready to help by providijng the best services for you. We
-            beleive a good blace to live can make your life better{" "}
+          At CulturConnect, we're always ready to assist you. We believe that by providing the best services, we 
+          can make your exploration of Indian culture an enriching and seamless experience.{" "}
           </span>
 
           <div className="flexColStart contactModes">
@@ -80,7 +80,7 @@ const Contact = () => {
         {/* right side */}
         <div className="flexEnd c-right">
           <div className="image-container">
-            <img src="./contact.jpg" alt="" />
+            <img src="https://www.cbazaar.com/blog/wp-content/uploads/2019/07/11.jpg" alt="" />
           </div>
         </div>
       </div>

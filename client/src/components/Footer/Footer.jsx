@@ -6,18 +6,18 @@ const Footer = () => {
       <div className="paddings innerWidth flexCenter f-container">
         {/* left side */}
         <div className="flexColStart f-left">
-          <img src="./logo2.png" alt="" width={120} />
+          <img src="./l3.png" alt="" width={220} />
           <span className="secondaryText">
-            Our vision is to make all people <br />
-            the best place to live for them.
+          Explore the richness of Indian culture with CulturConnect. <br />
+          Unlock unforgettable experiences and immerse yourself in the beauty of tradition.
           </span>
         </div>
 
         <div className="flexColStart f-right">
           <span className="primaryText">Information</span>
-          <span className="secondaryText">145 New York, FL 5467, USA</span>
+          <span className="secondaryText">UttarPradesh , India</span>
           <div className="flexCenter f-menu">
-            <span>Property</span>
+            <span>Events</span>
             <span>Services</span>
             <span>Product</span>
             <span>About Us</span>

@@ -9,7 +9,10 @@
   color: var(--secondary);
   justify-content: space-between;
 }
-
+.img{
+  height: 78px;
+  width: 60px;
+}
 .h-menu {
   gap: 2rem;
 }
