@@ -54,14 +54,14 @@ const Property = () => {
 
   // Function to handle copying the link to clipboard
   const handleCopyLink = () => {
-    const eventPageUrl = `http://localhost:5173/properties/${id}`;
+    const eventPageUrl = `https://cultur-connects.vercel.app/properties/${id}`;
     navigator.clipboard.writeText(eventPageUrl);
     toast.success("Link copied to clipboard", { position: "bottom-right" });
   };
 
   // Function to handle sharing on Twitter
   const handleTwitterShare = () => {
-    const eventPageUrl = `http://localhost:5173/properties/${id}`;
+    const eventPageUrl = `https://cultur-connects.vercel.app/properties/${id}`;
     const tweetContent = encodeURIComponent(`Check out this event on CulturConnect: ${eventPageUrl}`);
     const twitterUrl = `https://twitter.com/intent/tweet?text=${tweetContent}`;
     window.open(twitterUrl, "_blank");
@@ -69,7 +69,7 @@ const Property = () => {
 
   // Function to handle sharing on WhatsApp
   const handleWhatsAppShare = () => {
-    const eventPageUrl = `http://localhost:5173/properties/${id}`;
+    const eventPageUrl = `https://cultur-connects.vercel.app/properties/${id}`;
     const message = encodeURIComponent(`Check out this event on CulturConnect: ${eventPageUrl}`);
     const whatsappUrl = `https://wa.me/?text=${message}`;
     window.open(whatsappUrl, "_blank");
@@ -77,7 +77,7 @@ const Property = () => {
 
   // Function to handle sharing on Facebook
   const handleFacebookShare = () => {
-    const eventPageUrl = `http://localhost:5173/properties/${id}`;
+    const eventPageUrl = `https://cultur-connects.vercel.app/properties/${id}`;
     const facebookUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(eventPageUrl)}`;
     window.open(facebookUrl, "_blank");
   };

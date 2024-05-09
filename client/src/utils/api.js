@@ -3,8 +3,8 @@ import dayjs from "dayjs";
 import { toast } from "react-toastify";
 
 export const api = axios.create({
- // baseURL: "https://cultur-connects-server.vercel.app/api",
- baseURL: "http://localhost:3000/api",
+ baseURL: "https://cultur-connects-server.vercel.app/api",
+//  baseURL: "http://localhost:3000/api",
 });
 
 export const getAllProperties = async () => {
