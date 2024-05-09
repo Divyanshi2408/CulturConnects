@@ -7,11 +7,18 @@ export const createResidency = asyncHandler(async (req, res) => {
     title,
     description,
     price,
+    date1,
+    date2,
+    day1,
+    day2,
     address,
     country,
     city,
     facilities,
     image,
+    phoneNumber,
+    guideName,
+    guidePhoneNumber,
     userEmail,
   } = req.body.data;
 
@@ -22,15 +29,29 @@ export const createResidency = asyncHandler(async (req, res) => {
         title,
         description,
         price,
+        date1,
+        date2,
+        day1,
+        day2,
         address,
         country,
         city,
         facilities,
         image,
+        phoneNumber,
+        guideName,
+        guidePhoneNumber,
         owner: { connect: { email: userEmail } },
       },
     });
     
+    const eventPageUrl = `http://localhost:3000/events/${residency.id}`;
+
+  res.send({
+    message: "Residency created successfully",
+    residency,
+    eventPageUrl, // Include the URL in the response
+  });
     res.send({ message: "Residency created successfully", residency });
   } catch (err) {
     if (err.code === "P2002") {

@@ -13,7 +13,9 @@ import Property from "./pages/Property/Property";
 import UserDetailContext from "./context/UserDetailContext";
 import Bookings from "./pages/Bookings/Bookings";
 import Favourites from "./pages/Favourites/Favourites";
-
+import Value from "./components/Value/Value";
+import About from "./components/About/About";
+import Resources from "./components/Resources/Resources";
 function App() {
   const queryClient = new QueryClient();
 
@@ -35,8 +37,13 @@ function App() {
                   <Route index element={<Properties />} />
                   <Route path=":propertyId" element={<Property />} />
                 </Route>
+                <Route path="/Properties" element={<Properties />} /> 
+                <Route path="/Value" element={<Value />} /> 
+                <Route path="/Resources" element={<Resources />} /> 
+                <Route path="/About" element={<About />} /> 
                 <Route path="/bookings" element={<Bookings />} />
                 <Route path="/favourites" element={<Favourites />} />
+                
               </Route>
             </Routes>
           </Suspense>

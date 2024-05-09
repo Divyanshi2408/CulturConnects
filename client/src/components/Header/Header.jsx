@@ -10,6 +10,7 @@ import ProfileMenu from "../ProfileMenu/ProfileMenu";
 import AddPropertyModal from "../AddPropertyModal/AddPropertyModal";
 import useAuthCheck from "../../hooks/useAuthCheck.jsx";
 
+
 const Header = () => {
   const [menuOpened, setMenuOpened] = useState(false);
   const headerColor = useHeaderColor();
@@ -28,7 +29,7 @@ const Header = () => {
       <div className="flexCenter innerWidth paddings h-container">
         {/* logo */}
         <Link to="/">
-          <img src="./l.png" alt="logo" width={200} />
+          <img src="./e2.png" alt="logo" width={200} />
         </Link>
 
         {/* menu */}
@@ -43,11 +44,13 @@ const Header = () => {
             style={getMenuStyles(menuOpened)}
           >
             <NavLink to="/properties">Events</NavLink>
-
+            <NavLink to="/About">About Us</NavLink>
+            <NavLink to="/Resources">Resources</NavLink>
+           
             <a href="mailto:culturconnects@gmail.com">Contact</a>
-
+            
             {/* add property */}
-            <div onClick={handleAddPropertyClick}>Add Events</div>
+            <div onClick={handleAddPropertyClick}>Become a host</div>
             <AddPropertyModal opened={modalOpened} setOpened={setModalOpened} />
             {/* login button */}
             {!isAuthenticated ? (

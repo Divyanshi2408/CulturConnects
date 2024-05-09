@@ -17,24 +17,24 @@ const Facilities = ({
   const form = useForm({
     initialValues: {
       bedrooms: propertyDetails.facilities.bedrooms,
-      parkings: propertyDetails.facilities.parkings,
-      bathrooms: propertyDetails.facilities.bathrooms,
+      transportation: propertyDetails.facilities.transportation,
+      Day: propertyDetails.facilities.Day,
     },
     validate: {
       bedrooms: (value) => (value < 1 ? "Must have atleast one room" : null),
-      bathrooms: (value) =>
+      Day: (value) =>
         value < 1 ? "Must have atleast one bathroom" : null,
     },
   });
 
-  const { bedrooms, parkings, bathrooms } = form.values;
+  const { bedrooms, transportation, Day} = form.values;
 
   const handleSubmit = () => {
     const { hasErrors } = form.validate();
     if (!hasErrors) {
       setPropertyDetails((prev) => ({
         ...prev,
-        facilities: { bedrooms, parkings, bathrooms },
+        facilities: { bedrooms, transportation, Day },
       }));
       mutate();
     }
@@ -42,39 +42,56 @@ const Facilities = ({
 
   // ==================== upload logic
   const { user } = useAuth0();
-  const {
-    userDetails: { token },
-  } = useContext(UserDetailContext);
-  const { refetch: refetchProperties } = useProperties();
+const {
+  userDetails: { token },
+} = useContext(UserDetailContext);
+const { refetch: refetchProperties } = useProperties();
 
-  const {mutate, isLoading} = useMutation({
-    mutationFn: ()=> createResidency({
-        ...propertyDetails, facilities: {bedrooms, parkings , bathrooms},
-    }, token),
-    onError: ({ response }) => toast.error(response.data.message, {position: "bottom-right"}),
-    onSettled: ()=> {
-      toast.success("Added Successfully", {position: "bottom-right"});
-      setPropertyDetails({
-        title: "",
-        description: "",
-        price: 0,
-        country: "",
-        city: "",
-        address: "",
-        image: null,
+const { mutate, isLoading } = useMutation({
+  mutationFn: () =>
+    createResidency(
+      {
+        ...propertyDetails,
         facilities: {
-          bedrooms: 0,
-          parkings: 0,
-          bathrooms: 0,
+          bedrooms: propertyDetails.facilities.bedrooms,
+          transportation: propertyDetails.facilities.transportation,
+          Day: propertyDetails.facilities.Day,
         },
-        userEmail: user?.email,
-      })
-      setOpened(false)
-      setActiveStep(0)
-      refetchProperties()
-    }
-
-  })
+        userEmail: user?.email, // Ensure user.email is defined or pass an empty string if it's undefined
+      },
+      token
+    ),
+  onError: ({ response }) =>
+    toast.error(response.data.message, { position: "bottom-right" }),
+  onSettled: () => {
+    toast.success("Added Successfully", { position: "bottom-right" });
+    setPropertyDetails({
+      title: "",
+      description: "",
+      price: 0,
+      day1: "",
+      day2: "",
+      date1: null,
+      date2: null, 
+      country: "",
+      city: "",
+      address: "",
+      image: null,
+      phoneNumber: "",
+      guideName: "",
+      guidePhoneNumber: "",
+      facilities: {
+        bedrooms: 0,
+        transportation: 0,
+        Day: 0,
+      },
+      userEmail: user?.email,
+    });
+    setOpened(false);
+    setActiveStep(0);
+    refetchProperties();
+  },
+});
 
   return (
     <Box maw="30%" mx="auto" my="sm">
@@ -86,20 +103,20 @@ const Facilities = ({
       >
         <NumberInput
           withAsterisk
-          label="No of Bedrooms"
+          label="No of Room"
           min={0}
           {...form.getInputProps("bedrooms")}
         />
         <NumberInput
-          label="No of Parkings"
+          label="No of transportation"
           min={0}
-          {...form.getInputProps("parkings")}
+          {...form.getInputProps("transportation")}
         />
         <NumberInput
           withAsterisk
-          label="No of Bathrooms"
+          label="No of Day"
           min={0}
-          {...form.getInputProps("bathrooms")}
+          {...form.getInputProps("Day")}
         />
         <Group position="center" mt="xl">
           <Button variant="default" onClick={prevStep}>

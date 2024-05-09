@@ -18,15 +18,16 @@ const Hero = () => {
               type: "ease-in",
             }}
             >
-              Embrace <br />
-              India's Magic
-              <br /> Celebrate Tradition
+              Don't Just  <br />
+              Visit India,
+              <br />  Live It
             </motion.h1>
           </div>
           <div className="flexColStart secondaryText flexhero-des">
-            <span>Discover the wedding of your dreams and immerse yourself
-            <br></br> in our cultural experiences.Explore our website to find the</span>
-            <span>  perfect match for your journey into Indian traditions.</span>
+            <span>Your Bucket List Isn't Complete  Without 
+            <br></br>this.Live a Bollywood Dream; Experience </span>
+            <span>  the Unforgettable Journey of an Indian Wedding.
+</span>
           </div>
 
           <SearchBar/>
@@ -34,23 +35,23 @@ const Hero = () => {
           <div className="flexCenter stats">
             <div className="flexColCenter stat">
               <span>
-                <CountUp start={90} end={100} duration={4} /> <span>+</span>
+                <CountUp start={9999} end={10000} duration={4} /> <span>+</span>
               </span>
-              <span className="secondaryText">Join Our Thriving Community</span>
+              <span className="secondaryText">Active <br />Users</span>
             </div>
 
             <div className="flexColCenter stat">
               <span>
                 <CountUp start={45} end={50} duration={4} /> <span>+</span>
               </span>
-              <span className="secondaryText">WanderWeddings</span>
+              <span className="secondaryText">Weddings<br /> Listed</span>
             </div>
 
             <div className="flexColCenter stat">
               <span>
-                <CountUp end={20} /> <span>+</span>
+                <CountUp end={100} /> <span>+</span>
               </span>
-              <span className="secondaryText">LocalRituals</span>
+              <span className="secondaryText">Connections<br /> Made</span>
             </div>
           </div>
         </div>
