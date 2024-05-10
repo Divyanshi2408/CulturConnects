@@ -120,8 +120,9 @@ const Property = () => {
           <div className="des">
             <div 
               style={{ 
-                backgroundColor: "#808080", 
+                backgroundColor: "#131110", 
                 padding: "15px", 
+                color:"white",
                 borderRadius: "10px", 
                 maxWidth: "470px", 
                 margin: "0 auto", // Center the description container
@@ -147,7 +148,8 @@ const Property = () => {
             </div>
             <div 
               style={{ 
-                backgroundColor: "#FFAD00", 
+                backgroundColor: "#131110", 
+                
                 padding: "40px", 
                 borderRadius: "10px", 
                 maxWidth: "470px", 
@@ -156,7 +158,7 @@ const Property = () => {
                 marginTop: "40px" // Add top margin to create space between description boxes
               }}
             >
-              <p>Interested in visiting another wedding?</p>
+              <p style={{color:"white"}}>Interested in visiting another wedding?</p>
               <div 
                 style={{ 
                   backgroundColor: "#f0f0f0", 
