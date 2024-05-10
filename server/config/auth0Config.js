@@ -1,14 +1,9 @@
-import { config } from 'dotenv';
-import { auth } from 'express-oauth2-jwt-bearer';
+import {auth} from 'express-oauth2-jwt-bearer'
 
-// Load environment variables from .env file
-config();
-
-// Use environment variables in your code
 const jwtCheck = auth({
-    audience: process.env.AUDIENCE,
-    issuerBaseURL: process.env.ISSUER_BASE_URL,
-    tokenSigningAlg: process.env.TOKEN_SIGNING_ALG
-});
+    audience: "https://dev-1lxg3fk71kaqu6it.us.auth0.com/api/v2/",
+    issuerBaseURL: "https://dev-1lxg3fk71kaqu6it.us.auth0.com",
+    tokenSigningAlg: "RS256"
+})
 
-export default jwtCheck;
+export default jwtCheck
