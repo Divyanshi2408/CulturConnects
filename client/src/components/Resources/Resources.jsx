@@ -10,7 +10,7 @@ const Value = () => {
     <><div style={{
       position: 'relative',
       width: '100%',
-      height: '2109px', /* You can adjust the height as needed */
+      height: '2130px', /* You can adjust the height as needed */
     }}>
       <iframe
         src="https://divyanshi2408.github.io/page6/"
