@@ -52,11 +52,7 @@ const { mutate, isLoading } = useMutation({
     createResidency(
       {
         ...propertyDetails,
-        facilities: {
-          bedrooms: propertyDetails.facilities.bedrooms,
-          transportation: propertyDetails.facilities.transportation,
-          Day: propertyDetails.facilities.Day,
-        },
+        facilities: { bedrooms, transportation, Day },
         userEmail: user?.email, // Ensure user.email is defined or pass an empty string if it's undefined
       },
       token

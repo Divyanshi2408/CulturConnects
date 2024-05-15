@@ -45,7 +45,7 @@ export const createResidency = asyncHandler(async (req, res) => {
       },
     });
     
-    const eventPageUrl = `http://localhost:3000/events/${residency.id}`;
+    const eventPageUrl = `https://cultur-connects-server.vercel.app/events/${residency.id}`;
 
   res.send({
     message: "Residency created successfully",

@@ -56,7 +56,7 @@ export const createUser = async (email, token) => {
   }
 };
 
-export const bookVisit = async (date, propertyId, email, token) => {
+export const bookVisit = async (date, propertyId, email, token, dropdownValue, name, phoneNumber) => {
   try {
     await api.post(
       `/user/bookVisit/${propertyId}`,
@@ -64,6 +64,9 @@ export const bookVisit = async (date, propertyId, email, token) => {
         email,
         id: propertyId,
         date: dayjs(date).format("DD/MM/YYYY"),
+        confirmation: dropdownValue,
+        name,
+        phoneNumber,
       },
       {
         headers: {
@@ -76,7 +79,6 @@ export const bookVisit = async (date, propertyId, email, token) => {
     throw error;
   }
 };
-
 export const removeBooking = async (id, email, token) => {
   try {
     await api.post(

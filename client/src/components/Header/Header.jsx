@@ -44,7 +44,7 @@ const Header = () => {
             style={getMenuStyles(menuOpened)}
           >
             <NavLink to="/properties">Events</NavLink>
-            <NavLink to="/About">About Us</NavLink>
+            <a href="https://divyanshi2408.github.io/page4/">About Us</a>
             <NavLink to="/Resources">Resources</NavLink>
            
             <a href="mailto:culturconnects@gmail.com">Contact</a>

@@ -43,7 +43,7 @@ const Website = () => {
         position: 'relative',
         width: '100%',
         marginTop: "20px",
-        height: '900px', /* You can adjust the height as needed */
+        height: '921px', /* You can adjust the height as needed */
         
       }}>
         <iframe
@@ -61,27 +61,43 @@ const Website = () => {
         />
       </div>
 
-    <div style={{
-        position: 'relative',
-        width: '100%',
-        height: '730px', /* You can adjust the height as needed */
-        
-      }}>
-        <iframe
-          src="https://divyanshi2408.github.io/page9/"
-         
-          style={{
-            position: 'absolute',
-            top: 0,
-            left: 0,
-            width: '100%',
-            height: '100%',
-            border: 'none',
-            
-          }}
-        />
+      <div style={{
+      position: 'relative',
+      width: '100%',
+      height: '730px', 
       
-      </div>
+    }}>
+    <style>
+        {`
+          @media (max-width: 768px) {
+            iframe {
+              height: 800px; /* Adjust height for smaller screens */
+            }
+          }
+
+          @media (max-width: 480px) {
+            iframe {
+              height: 800px; /* Further adjust height for even smaller screens */
+            }
+          }
+        `}
+      </style>
+      <iframe
+        src="https://divyanshi2408.github.io/page9/"
+        style={{
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          width: '100%',
+          height: '100%',
+          border: 'none',
+          
+        }}
+      />
+   
+    </div>
+    
+
       <div style={{
         position: 'relative',
         width: '100%',
@@ -106,7 +122,7 @@ const Website = () => {
     <div style={{
         position: 'relative',
         width: '100%',
-        height: '830px', /* You can adjust the height as needed */
+        height: '869px', /* You can adjust the height as needed */
         
       }}>
         <iframe

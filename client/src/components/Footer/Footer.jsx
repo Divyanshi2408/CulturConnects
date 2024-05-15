@@ -21,10 +21,10 @@ const Footer = () => {
           <div className="flexCenter f-menu">
           <Link to="./properties"><span>Events</span></Link> 
           <Link to="./Value"> <span>Services</span></Link> 
-          <Link to="./About"> <span>About Us</span></Link> 
+          <a href="https://divyanshi2408.github.io/page4/">About Us</a> 
           <Link to="./Resources"> <span>Resources</span></Link> 
           
-            <a href ="https://divyanshi2408.github.io/page4/"><span>About Us</span></a>
+            
             
             
           </div>
