@@ -99,7 +99,7 @@ const { mutate, isLoading } = useMutation({
       >
         <NumberInput
           withAsterisk
-          label="No of Room"
+          label="Accomodation"
           min={0}
           {...form.getInputProps("bedrooms")}
         />
@@ -119,7 +119,7 @@ const { mutate, isLoading } = useMutation({
             Back
           </Button>
           <Button type="submit" color="green" disabled={isLoading}>
-            {isLoading ? "Submitting" : "Add Property"}
+            {isLoading ? "Submitting" : "Submit the Event"}
           </Button>
         </Group>
       </form>

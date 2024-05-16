@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="paddings innerWidth flexCenter f-container">
         {/* left side */}
         <div className="flexColStart f-left">
-          <img src="./e3.png" alt="" width={220} />
+          <img src="./curt.png" alt="" width={220} />
           <span className="secondaryText">
             Explore the richness of Indian culture with CulturConnect. <br />
             Unlock unforgettable experiences and immerse yourself in the beauty of tradition.

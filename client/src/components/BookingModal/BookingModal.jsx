@@ -68,7 +68,7 @@ const BookingModal = ({ opened, setOpened, email, propertyId }) => {
           required
         />
          <h1 style={{ fontSize: '16px', color: '#D49B0B', textAlign: 'center', marginBottom: '10px' }}>
-        Pay the amount for confirmation of this event
+        Lock your spot for the event for just $2(a steal!).Pay the fee now, from the below mentioned option.
       </h1>
         <img src={qr} style={{ width: '250px', height: '200px' }} alt="QR Code" />
         <h1 style={{ fontSize: '16px', color: '#D49B0B', textAlign: 'center', marginBottom: '10px' }}>

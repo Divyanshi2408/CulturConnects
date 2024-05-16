@@ -37,7 +37,7 @@ const BasicDetails = ({ prevStep, nextStep, propertyDetails, setPropertyDetails 
         <TextInput
           withAsterisk
           label="Title"
-          placeholder="Property Name"
+          placeholder="Title Name"
           {...form.getInputProps("title")}
         />
         <Textarea
@@ -49,7 +49,7 @@ const BasicDetails = ({ prevStep, nextStep, propertyDetails, setPropertyDetails 
         <NumberInput
           withAsterisk
           label="Price"
-          placeholder="1000"
+          placeholder="10"
           min={0}
           {...form.getInputProps("price")}
         />
