@@ -1,0 +1,51 @@
+.responsive-iframe {
+  width: 100%;
+  height: auto; /* Initial height, it will be adjusted dynamically */
+}
+
+.iframe-container {
+  position: relative;
+  width: 100%;
+  margin-bottom: 50px; 
+  
+}
+
+@media (max-width: 768px) {
+  .responsive-iframe {
+    height: 1000px; /* Adjust height for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .responsive-iframe {
+    height: 1000px; /* Further adjust height for even smaller screens */
+  }
+}
+
+
+.responsive-iframe1 {
+    width: 100%;
+    height: auto; /* Initial height, it will be adjusted dynamically */
+  }
+  
+  .iframe-container1 {
+    position: relative;
+    width: 100%;
+    margin-bottom: 50px; 
+    
+  }
+  
+  @media (max-width: 768px) {
+    .responsive-iframe1 {
+      height: 1200px; /* Adjust height for smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .responsive-iframe1 {
+      height: 1200px; /* Further adjust height for even smaller screens */
+    }
+  }
+  
+
+  
