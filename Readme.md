@@ -4,13 +4,12 @@
 
 
 
-![Cover Page]()
+![Cover Page](https://github.com/Divyanshi2408/CulturConnects/blob/30a7f543920d1ba93c868d75fce79c0573e1e8ab/Glimpse/Cover.png)
   
-
 
 ## Preview
 
-[]()
+[Landing Page](https://github.com/Divyanshi2408/CulturConnects/blob/30a7f543920d1ba93c868d75fce79c0573e1e8ab/Glimpse/Landing%20Page.png)
 
 ## Setting Up the Development Environment
 First, install the node modules & dependencies:
@@ -65,16 +64,16 @@ The `styles/globals.css` file consists of all the custom css used apart from inl
 
 The website was designed to support both light and dark themes. It reads the current theme preference of the client browser and accordingly applies the state throughout the website.
 
-### CulturConnect Cover:
+### CulturConnect About:
 
 <details> <summary>Toggle me to Preview!</summary>
-<img src=""/>  
+<img src="https://github.com/Divyanshi2408/CulturConnects/blob/30a7f543920d1ba93c868d75fce79c0573e1e8ab/Glimpse/About%20us.png"/>  
 </details>
 
 ### Snapshot of Resource Page. 
 
 <details> <summary>Toggle me to Preview!</summary>
-<img src=" "/>
+<img src="https://github.com/Divyanshi2408/CulturConnects/blob/30a7f543920d1ba93c868d75fce79c0573e1e8ab/Glimpse/Resource%20Page.png"/>
 </details>
 
 ## Deploy on Vercel
