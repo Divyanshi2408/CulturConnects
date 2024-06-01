@@ -1,9 +1,12 @@
-![CulturConnect Logo]()
+<div align= "Center"> 
+ 
+ # CULTURCONNECT 
+ </div>
 
 ## Dive into the Heart of India
 CultureConnect is your gateway to unforgettable cultural experiences, curated by passionate locals. Here, you'll discover hidden gems, connect with welcoming communities, and create memories that will last a lifetime.<br>
 
-![Cover Page](https://github.com/Divyanshi2408/CulturConnects/blob/30a7f543920d1ba93c868d75fce79c0573e1e8ab/Glimpse/Cover.png)
+![Cover Page](https://github.com/Divyanshi2408/CulturConnects/blob/c4d62707a3daa042a27534fed16746ec82a6271d/Glimpse/Cover%202.png)
 
 ### Imagine:
 - Witnessing the vibrant colors and infectious energy of a traditional Indian wedding.
@@ -73,7 +76,7 @@ The website was designed user friendly.It reads the current theme preference of 
 
 ## Preview
 
-![Landing Page](https://github.com/Divyanshi2408/CulturConnects/blob/30a7f543920d1ba93c868d75fce79c0573e1e8ab/Glimpse/Landing%20Page.png)
+![Landing Page](https://github.com/Divyanshi2408/CulturConnects/blob/c4d62707a3daa042a27534fed16746ec82a6271d/Glimpse/Landing..png)
 
 ### CulturConnect About:
 
@@ -109,8 +112,6 @@ This project is licensed under the [**MIT license**](https://github.com/Divyansh
 <a href="https://github.com/Divyanshi2408/CulturConnects"><img src="https://img.shields.io/github/stars/Divyanshi2408/CulturConnects" alt="Stars Badge" /></a>
 <a href="https://github.com/Divyanshi2408/CulturConnects/network/members"><img src="https://img.shields.io/github/forks/Divyanshi2408/CulturConnects" alt="Forks Badge" /></a>
 <a href="https://github.com/Divyanshi2408/CulturConnects/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Divyanshi2408/CulturConnects?color=2b9348" ></a>
-
-[![GitHub license](https://img.shields.io/github/license/Divyanshi2408/CulturConnects?logo=github)](https://github.com/Divyanshi2408/CulturConnects/blob/main/LICENSE)
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 </div>
