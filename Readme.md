@@ -48,8 +48,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 .
 ├── .github
 │   └── workflows
-│       ├── gssoc-deploy.yml
-│       └── contributors.yml
+│       ├── culturconnect-deploy.yml
+│     
 ├── public/*
 ├── components/*
 ├── pages/*
