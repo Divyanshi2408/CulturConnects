@@ -1,4 +1,4 @@
-![CulturConnect Logo]()
+![CulturConnect Logo](https://github.com/Divyanshi2408/CulturConnects/blob/a82b89deb678fd13b9f348fbdae7210bccd34668/Glimpse/e3.png)
 
 # Official website repository for the CulturConnect.
 
