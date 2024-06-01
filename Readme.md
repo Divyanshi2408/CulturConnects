@@ -94,7 +94,8 @@ The website was designed user friendly.It reads the current theme preference of 
 You can check out [the live Project](https://cultur-connects.vercel.app/) - your feedback and contributions are welcome!
 
 ## CulturConnect Community
-![Community Ecosystem]()
+[Community Ecosystem](https://substack.com/@culturconnect)<br/>
+You can [Join our community](https://substack.com/@culturconnect) 
 
 © 2024 CulturConnect\
 This project is licensed under the [**MIT license**](https://github.com/Divyanshi2408/CulturConnects/blob/main/LICENSE).
