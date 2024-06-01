@@ -1,15 +1,22 @@
-![CulturConnect Logo](https://github.com/Divyanshi2408/CulturConnects/blob/a82b89deb678fd13b9f348fbdae7210bccd34668/Glimpse/e3.png)
+![CulturConnect Logo]()
 
-# Official website repository for the CulturConnect.
-
-
+## Dive into the Heart of India
+CultureConnect is your gateway to unforgettable cultural experiences, curated by passionate locals. Here, you'll discover hidden gems, connect with welcoming communities, and create memories that will last a lifetime.<br>
 
 ![Cover Page](https://github.com/Divyanshi2408/CulturConnects/blob/30a7f543920d1ba93c868d75fce79c0573e1e8ab/Glimpse/Cover.png)
-  
 
-## Preview
+### Imagine:
+- Witnessing the vibrant colors and infectious energy of a traditional Indian wedding.
+- Learning the art of intricate embroidery from a local artisan in a historic village.
+- Savoring the aromatic flavors of regional cuisine in a cozy home kitchen.
+- Participating in a lively folk festival, surrounded by the rhythm of music and vibrant costumes.
 
-[Landing Page](https://github.com/Divyanshi2408/CulturConnects/blob/30a7f543920d1ba93c868d75fce79c0573e1e8ab/Glimpse/Landing%20Page.png)
+#### CultureConnect makes these experiences, and countless others, a reality.
+
+#### Our user-friendly platform connects you with authentic cultural experiences hosted by welcoming locals. From bustling cities to serene villages, we offer a diverse range of activities that cater to every interest.
+
+#### More than just a booking platform. Ready to embark on a cultural adventure of a lifetime? <br>Explore CultureConnect today and discover the magic of India!
+
 
 ## Setting Up the Development Environment
 First, install the node modules & dependencies:
@@ -60,9 +67,13 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - [x] `public` directory contains all the assets used in the project (including images, certificates, graphics and logos)
 The `styles/globals.css` file consists of all the custom css used apart from inline Tailwind styles.  
 
-## Theming and Dual Modes
+## Theming 
 
-The website was designed to support both light and dark themes. It reads the current theme preference of the client browser and accordingly applies the state throughout the website.
+The website was designed user friendly.It reads the current theme preference of the client browser and accordingly applies the state throughout the website.
+
+## Preview
+
+![Landing Page](https://github.com/Divyanshi2408/CulturConnects/blob/30a7f543920d1ba93c868d75fce79c0573e1e8ab/Glimpse/Landing%20Page.png)
 
 ### CulturConnect About:
 
@@ -77,13 +88,13 @@ The website was designed to support both light and dark themes. It reads the cur
 </details>
 
 ## Deploy on Vercel
-You can check out [the live Project]() - your feedback and contributions are welcome!
+You can check out [the live Project](https://cultur-connects.vercel.app/) - your feedback and contributions are welcome!
 
 ## CulturConnect Community
 ![Community Ecosystem]()
 
 © 2024 CulturConnect\
-This project is licensed under the [**MIT license**]().
+This project is licensed under the [**MIT license**](https://github.com/Divyanshi2408/CulturConnects/blob/main/LICENSE).
 
 <div align="center">
  
@@ -99,7 +110,7 @@ This project is licensed under the [**MIT license**]().
 <a href="https://github.com/Divyanshi2408/CulturConnects/network/members"><img src="https://img.shields.io/github/forks/Divyanshi2408/CulturConnects" alt="Forks Badge" /></a>
 <a href="https://github.com/Divyanshi2408/CulturConnects/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Divyanshi2408/CulturConnects?color=2b9348" ></a>
 
-[![GitHub license](https://img.shields.io/github/license/Divyanshi2408/CulturConnects?logo=github)](https://github.com/Divyanshi2408/CulturConnectsblob/master/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/Divyanshi2408/CulturConnects?logo=github)](https://github.com/Divyanshi2408/CulturConnects/blob/main/LICENSE)
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 </div>
